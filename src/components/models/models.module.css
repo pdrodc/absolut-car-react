@@ -1,0 +1,131 @@
+.Models {
+  padding-bottom: 4rem;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.search input {
+  background-color: var(--white);
+  width: 35%;
+  border: 1px solid var(--graybg);
+  border-radius: 15px;
+  padding: 18px;
+  font-size: 16px;
+  box-shadow: 10px 10px 22px -4px rgba(0, 0, 0, 0.2);
+}
+
+.searchButton {
+  display: flex;
+  align-items: center;
+  background: var(--red);
+  border: none;
+  padding: 12px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.searchButton svg {
+  color: var(--white);
+}
+
+.searchButton:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: var(--black);
+}
+
+.search input::placeholder {
+  color: var(--gray);
+}
+
+.modelsTitle {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.modelsList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.modelsContent {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.navModels {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.navModels:hover .modelItem{
+  opacity: 0.7;
+}
+
+.modelItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 25%;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.navModels .modelItem:hover {
+  width: 35%;
+  opacity: 1;
+}
+
+.modelItem a {
+  color: var(--graybg);
+  background-color: var(--red);
+  padding: 10px;
+  border-radius: 18px;
+  margin-top: 10px;
+}
+
+.modelItem a:hover {
+  transition: all 0.3s ease-in-out;
+  color: var(--black);
+}
+
+.modelItem img {
+  width: 70%;
+}
+
+#porsche {
+  width: 50%;
+}
+
+.modelName {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .navModels {
+    flex-wrap: wrap;
+  }
+  .modelItem {
+    width: 50%;
+  }
+
+  .navModels .modelItem:hover {
+    width: 50%;
+  }
+}
