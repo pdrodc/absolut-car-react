@@ -1,8 +1,35 @@
 .wrapperBrands {
-    padding: 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.brandsContent {
+  padding-bottom: 2rem;
+}
+
+.brandsContent h2 {
+  font-size: 28px;
+}
+
+.brandsList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 128px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.brandsList img {
+  width: 61px;
+}
+
+.brandsList img:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.5);
+  opacity: 1;
 }

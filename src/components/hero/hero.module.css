@@ -1,6 +1,6 @@
 .Hero {
-    background-color: var(--black);
-    padding: 24px;
+  background-color: var(--black);
+  padding: 24px;
 }
 
 .wrapperHero {
@@ -36,7 +36,12 @@ img {
 .modernButton {
   display: flex;
   align-items: center;
-  background-color: var(--red);
+  background: #cf1313;
+  background: linear-gradient(
+    90deg,
+    rgba(207, 19, 19, 1) 0%,
+    rgba(163, 0, 0, 1) 50%
+  );
   color: white;
   border: 2px solid transparent;
   border-radius: 9px;
@@ -52,20 +57,20 @@ img {
   margin-top: 20px;
 }
 
-.modernButton svg{
-    font-size: 18px;
-    transition: transform 0.3s ease;
+.modernButton svg {
+  font-size: 18px;
+  transition: transform 0.3s ease;
 }
 
 .modernButton:hover {
-    background-color: transparent;
-    border-color: var(--white);
-    color: var(--white);
-    transition: all 0.3s ease;  
+  background-color: transparent;
+  border-color: var(--white);
+  color: var(--white);
+  transition: all 0.3s ease;
 }
 
 .modernButton:hover svg {
-    transform: translateX(4px);
+  transform: translateX(4px);
 }
 
 @media (max-width: 768px) {
