@@ -1,9 +1,14 @@
+.Brands {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .wrapperBrands {
   padding: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   text-align: center;
 }
 
@@ -32,4 +37,13 @@
   transition: all 0.3s ease-in-out;
   transform: scale(1.5);
   opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .brandsList {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
 }

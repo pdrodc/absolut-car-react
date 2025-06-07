@@ -1,0 +1,137 @@
+.Others {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+}
+.othersContent { 
+    padding-bottom: 2rem;
+}
+
+.othersContent h2 {
+    font-size: 26px;
+}
+
+.motosContent p {
+    font-size: 16px;
+}
+
+.Buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.modernButton {
+    position: relative;
+  width: 320px;
+  height: 400px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-image: url('/src/assets/chevette2.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: Inter, sans-serif;
+  font-size: 22px;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.modernButton svg {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.modernButton:hover {
+  background-color: transparent;
+  color: var(--white);
+  transition: all 0.3s ease;
+}
+
+.modernButton:hover svg {
+  transform: translateX(4px);
+}
+
+.modernButton2 {
+    position: relative;
+  width: 320px;
+  height: 400px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-image: url('/src/assets/sahara2.png');
+  background-size: cover;
+  background-position: center;
+  font-family: Inter, sans-serif;
+  font-size: 22px;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.modernButton2 svg {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+  color: var(--white);
+}
+
+.modernButton2:hover {
+  background-color: transparent;
+  color: var(--white);
+  transition: all 0.3s ease;
+}
+
+.modernButton2:hover svg {
+  transform: translateX(4px);
+}
+
+
+.modernButton3 {
+    position: relative;
+  width: 320px;
+  height: 400px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-image: url('/src/assets/supra.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: Inter, sans-serif;
+  font-size: 22px;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.modernButton3 svg {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.modernButton3:hover {
+  background-color: transparent;
+  color: var(--white);
+  transition: all 0.3s ease;
+}
+
+.modernButton3:hover svg {
+  transform: translateX(4px);
+}
+
+@media (max-width: 768px) {
+  .Buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .othersContent {
+    text-align: center;
+  }
+}

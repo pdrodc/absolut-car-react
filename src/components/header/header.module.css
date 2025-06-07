@@ -48,15 +48,12 @@
     display: none;
   }
   #buttonMobile {
-    display: flex;
+    display: block;
     background: transparent;
-    align-items: flex-end;
-    border: none;
   }
   #menuIcons {
     width: 20px;
     height: 20px;
-    color: #fff;
   }
   .active nav {
     height: 100vh;
@@ -65,8 +62,8 @@
     position: absolute;
     top: 80px;
     width: 100%;
-    background-color: #fff;
-    z-index: 3;
+    background-color: #000000;
+    z-index: 1;
   }
   .active .ulMenu {
     display: flex;
@@ -78,15 +75,5 @@
 
   .active .navLi {
     text-align: center;
-  }
-
-  .active .navLi a {
-    color: var(--black);
-  }
-  
-  .logo {
-    font-size: 20px;
-    display: block;
-    gap: 20px;
   }
 }

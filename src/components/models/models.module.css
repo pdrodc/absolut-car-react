@@ -11,7 +11,7 @@
 
 .search input {
   background-color: var(--white);
-  width: 35%;
+  width: 40%;
   border: 1px solid var(--graybg);
   border-radius: 15px;
   padding: 18px;
@@ -80,7 +80,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 25%;
+  width: 40%;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
 }

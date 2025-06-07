@@ -1,0 +1,45 @@
+.wrapperFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--graybg);   
+}
+
+.logo {
+    font-weight: 700;
+    line-height: 32px;
+    color: var(--blue);
+    padding: 20px;
+}
+
+.copyrightLinks {
+    display: flex;
+    gap: 20px;
+}
+
+.copyrightLinks a {
+    color: var(--black);
+    text-decoration: underline;
+}
+
+.copyrightLinks a:hover {
+    color: var(--red);
+}
+
+.linksFooterNav a{
+    color: var(--black);
+}
+
+.socialMediaUl {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+.socialMediaUl a {
+    color: var(--black);
+}
+
+.socialMediaUl a:hover {
+    color: var(--red);
+}

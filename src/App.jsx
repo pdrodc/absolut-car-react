@@ -3,6 +3,8 @@ import Header from "./components/header/header"
 import Hero from "./components/hero/hero"
 import Models from "./components/models/models"
 import Brands from "./components/brands/brands"
+import Others from './components/others/others'
+import Footer from './components/footer/footer'
 
 function App() {
 
@@ -12,6 +14,8 @@ function App() {
      <Hero />
      <Models />
      <Brands />
+     <Others />
+     <Footer />
     </>
   )
 }

@@ -10,7 +10,7 @@ const Models = () => {
   return (
     <section className={styles.Models}>
       <div className={styles.wrapperModels}>
-        <h2 className={styles.modelsTitle}>Escolha o tipo ideal para você</h2>
+        <h2 className={styles.modelsTitle}>Escolha o tipo de carro ideal para você</h2>
         <div className={styles.search}>
           <input type="text" placeholder="Qual carro você procura?" />
           <button className={styles.searchButton}>
