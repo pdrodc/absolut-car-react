@@ -2,14 +2,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid var(--graybg);   
+    border-top: 1px solid var(--graybg);
+    background-color: var(--black);
+    padding: 24px;
 }
 
 .logo {
-    font-weight: 700;
-    line-height: 32px;
-    color: var(--blue);
-    padding: 20px;
+    filter: invert(1);
+}
+
+.copyright {
+    color: var(--white);
 }
 
 .copyrightLinks {
@@ -18,7 +21,7 @@
 }
 
 .copyrightLinks a {
-    color: var(--black);
+    color: var(--white);
     text-decoration: underline;
 }
 
@@ -27,7 +30,11 @@
 }
 
 .linksFooterNav a{
-    color: var(--black);
+    color: var(--white);
+}
+
+.linksFooterNav a:hover {
+    color: var(--red);
 }
 
 .socialMediaUl {
@@ -37,7 +44,7 @@
 }
 
 .socialMediaUl a {
-    color: var(--black);
+    color: var(--white);
 }
 
 .socialMediaUl a:hover {

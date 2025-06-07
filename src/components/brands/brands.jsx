@@ -16,7 +16,7 @@ import Volkswagen from "../../assets/volkswagen.png";
 import Mitsubishi from "../../assets/mitsubishi.png";
 import Renault from "../../assets/renault.png";
 import KIA from "../../assets/kia.png";
-import Jeep from "../../assets/jeep.png";
+import Jeep from "../../assets/Jeep.png";
 
 const Brands = () => {
   return (
